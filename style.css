@@ -423,7 +423,7 @@ body{background:var(--bg);color:var(--ink)}
   .reach__btns{grid-template-columns:1fr 1fr}
   .reach__btns .btn--y{grid-column:1/-1}
   body{padding-bottom:68px}
-  .mbar{display:grid;grid-template-columns:1fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:50;height:64px;border-top:3px solid var(--ink)}
+  .mbar{display:none;grid-template-columns:1fr 1fr 1fr;position:fixed;left:0;right:0;bottom:0;z-index:50;height:64px;border-top:3px solid var(--ink)}
   .mbar a{display:flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;font:600 16px/1 var(--head);text-transform:uppercase;letter-spacing:.04em}
   .mbar svg{width:22px;height:22px}
   .mbar__call{background:var(--y);color:var(--ink)}
